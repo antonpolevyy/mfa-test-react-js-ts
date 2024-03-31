@@ -1,0 +1,33 @@
+.container {
+  & > h1 {
+    color: #25c397;
+    font-size: 25px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #17a69f;
+  width: fit-content;
+  padding: 5px 5px;
+}
+.pokemonCardContainer {
+  display: flex;
+}
+
+.pokemonCard {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #8a1e59;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.pokemonCard:hover {
+  cursor: pointer;
+  background-color: #d81d87;
+}
